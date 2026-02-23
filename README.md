@@ -6,7 +6,7 @@
 
 ꨄ︎ Adicionar tarefas
 ꨄ︎ Riscar tarefas
-ꨄ︎ nterface organizada e estilizada
+ꨄ︎ Interface organizada e estilizada
 ꨄ︎ Design personalizado com imagens e estilo próprio
 
 ## Linguagens utilizadas

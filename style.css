@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap');
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c9d2d8;
+}
+
+.container {
+    text-align: center;
+}
+
+.titulo1 {
+    font-family: "Bitcount Grid Double", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+    text-align: center;
+    color:#3a6ea5
+}
+
+.começar {
+
+  width: 20%;
+  height: 45px;
+  border-radius: 50%;
+  border: none;
+  font-size: 22px;
+  background: #ff8431;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.gif {
+  margin-top: 10px;
+  width: 600px;
+  border-radius: 12px;
+}
+
+.titulo2 {
+    text-align: center;
+   font-family: "Bitcount Grid Double", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+     display:block;
+    justify-content: center;
+    align-items: center;
+    color:steelblue;
+    
+}
+
+.tarefa {
+    align-items: center;
+    border-radius: 8px;
+    background-color: rgb(207, 232, 248);
+    border-color: rgb(207, 232, 248);
+    width: 500px;
+
+}
+
+.button {
+    border-radius: 8px;
+    background-color: rgb(207, 232, 248);
+    border-color: rgb(207, 232, 248);
+}
+
+.body2 {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+padding-top:40px; 
+    align-items: center;   
+    min-height: 100vh;
+    margin: 0;
+    background-image: url("backazul.jpg");
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+  
+}
+
+#lista {
+    list-style: disc;   
+    padding-left: 20px;
+}
+
+#lista li {
+    display:block;
+      
+}
+
+.add-task input {
+      width: 400px;
+  padding: 12px 15px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #e6f2f8;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.add-task button {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: none;
+  font-size: 22px;
+  background: #4f86c6;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-task button:hover {
+  background: #3a6ea5;
+  transform: scale(1.1);
+}
+
+.task-container {
+  width: 500px;
+  min-height: 300px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 25px;
+  background: rgba(255,255,255,0.6);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  max-height: 350px;
+  overflow-y: auto;
+}
+
+.task-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.task-container li {
+  background: white;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
